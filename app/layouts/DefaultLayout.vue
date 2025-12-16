@@ -24,7 +24,7 @@ const handleOpenAbout = () => {
     <UFooter class="border-t border-gray-200 dark:border-gray-800">
       <template #left>
         <p class="text-sm text-gray-600 dark:text-gray-400">
-          Painel desenvolvido por Data7 Apps
+          Painel desenvolvido por Awk Chat
         </p>
       </template>
 
@@ -37,11 +37,11 @@ const handleOpenAbout = () => {
             Sobre
           </button>
           <a 
-            href="https://www.youtube.com/@data7apps"
+            href="https://awkchat.com.br/"
             target="_blank"
             rel="noopener noreferrer"
             class="text-gray-600 dark:text-gray-400 hover:text-red-600 dark:hover:text-red-400 transition-colors"
-            aria-label="Canal do YouTube Data7 Apps"
+            aria-label="Nosso Site"
           >
             <UIcon name="i-lucide-youtube" class="w-5 h-5" />
           </a>
