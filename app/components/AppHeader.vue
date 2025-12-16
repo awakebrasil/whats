@@ -16,7 +16,7 @@ defineEmits<{
           class="flex items-center space-x-2 text-primary-600 hover:text-primary-700 transition-colors"
         >
           <UIcon name="i-heroicons-home" class="w-6 h-6" />
-          <span class="font-bold text-lg">UAZAPI</span>
+          <span class="font-bold text-lg">Awk Chat</span>
         </NuxtLink>
         
         <!-- Navegação no desktop -->
