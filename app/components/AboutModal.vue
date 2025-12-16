@@ -9,7 +9,7 @@ const open = defineModel<boolean>('open', { default: false })
   <UModal 
     v-model:open="open"
     title="Sobre o Sistema"
-    description="Informações sobre o painel UAZAPI"
+    description="Informações sobre o painel"
   >
     <template #body>
       <div class="space-y-6">
@@ -20,7 +20,7 @@ const open = defineModel<boolean>('open', { default: false })
           </p>
           
           <p class="text-gray-700 dark:text-gray-300">
-            Ele foi criado para gerenciar instâncias do UAZAPI de forma simples, leve e segura.
+            Ele foi criado para gerenciar instâncias do Awk Chat de forma simples, leve e segura.
           </p>
           
           <p class="text-gray-700 dark:text-gray-300">
@@ -76,7 +76,7 @@ const open = defineModel<boolean>('open', { default: false })
             class="inline-flex items-center gap-2 text-red-600 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300 transition-colors"
           >
             <UIcon name="i-lucide-youtube" class="w-4 h-4" />
-            <span class="font-medium">🎥 youtube.com/@data7apps</span>
+            <span class="font-medium">https://awkchat.com.br/</span>
             <UIcon name="i-lucide-external-link" class="w-3 h-3" />
           </a>
         </div>
