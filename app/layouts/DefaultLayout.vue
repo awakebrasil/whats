@@ -24,7 +24,7 @@ const handleOpenAbout = () => {
     <UFooter class="border-t border-gray-200 dark:border-gray-800">
       <template #left>
         <p class="text-sm text-gray-600 dark:text-gray-400">
-          Painel desenvolvido por Awk Chat
+          Awk Chat - Assistente de IA, Suporte Omnicanal
         </p>
       </template>
 
@@ -41,9 +41,9 @@ const handleOpenAbout = () => {
             target="_blank"
             rel="noopener noreferrer"
             class="text-gray-600 dark:text-gray-400 hover:text-red-600 dark:hover:text-red-400 transition-colors"
-            aria-label="Nosso Site"
+            aria-label="Acesse Awk Chat"
           >
-            <UIcon name="i-lucide-youtube" class="w-5 h-5" />
+            <UIcon name="circle-chevron-down" class="w-5 h-5" />
           </a>
         </div>
       </template>
