@@ -22,7 +22,7 @@ defineEmits<{
         <!-- Navegação no desktop -->
         <nav class="hidden md:flex items-center space-x-6">
           <a 
-            href="https://docs.uazapi.com/"
+            href="https://awkchat.com.br/"
             target="_blank"
             rel="noopener noreferrer"
             class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors flex items-center space-x-1"
