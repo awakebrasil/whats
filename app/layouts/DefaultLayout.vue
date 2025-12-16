@@ -30,12 +30,6 @@ const handleOpenAbout = () => {
 
       <template #right>
         <div class="flex items-center space-x-4">
-          <button
-            @click="handleOpenAbout"
-            class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors cursor-pointer"
-          >
-            Sobre
-          </button>
           <a 
             href="https://awkchat.com.br/"
             target="_blank"
@@ -43,7 +37,7 @@ const handleOpenAbout = () => {
             class="text-gray-600 dark:text-gray-400 hover:text-red-600 dark:hover:text-red-400 transition-colors"
             aria-label="Acesse Awk Chat"
           >
-            <UIcon name="circle-chevron-down" class="w-5 h-5" />
+            <i data-lucide="circle-chevron-down" class="w-5 h-5" />
           </a>
         </div>
       </template>
